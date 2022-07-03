@@ -1,3 +1,5 @@
 .vscode
 .backup
-*/.dendron.cache.json
+vault/.dendron.cache.json
+.dendron.port
+.dendron.ws
