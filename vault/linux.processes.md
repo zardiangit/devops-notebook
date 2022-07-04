@@ -2,7 +2,7 @@
 id: 3kqnz2lt84y9czzmgcxki0j
 title: Processes
 desc: ''
-updated: 1655614244286
+updated: 1656832000108
 created: 1650024633024
 ---
 
@@ -25,6 +25,7 @@ Provides information about currently running processes keyed by **PID**.
 - `k` : kill a specific process with **PID**.
 - `o` : enter the top config screen.
 - `f` : select a new sort order in the process list.
+- `r` : change the priority of (renice) a specific process.
 - `1` : get stats from each core of your cpu.
 
 

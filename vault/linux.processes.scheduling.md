@@ -2,13 +2,13 @@
 id: szekrh00vy4xry13znb3syz
 title: Scheduling
 desc: ''
-updated: 1653731557754
+updated: 1656836099155
 created: 1650601103222
 ---
 
 ### Scheduling with at
 
-`at` is a utility program used to execute any non-interactive at a specific time.
+`at` is a utility program used to execute any non-interactive command at a specific time.
 
 - to exit the `at` utility use `ctrl+d`.
 - `atq` or `at -l` lists the users pending job.
@@ -20,7 +20,7 @@ created: 1650601103222
 
 Cron is used to schedule routine background jobs.
 
-- `crontab -e` will open a crontab editor for the specified user.
+- `crontab -e` will open the crontab editor to create new or edit existing jobs.
 
 - `crontab -l` will list all the scheduled jobs for that user.
 
@@ -30,7 +30,7 @@ crontab entry format:
 here,  
 
 Field|Desc|
-:---:|---|
+:---:|:---|
  m | minutes |
  h | hour |
  dom | day of month |
